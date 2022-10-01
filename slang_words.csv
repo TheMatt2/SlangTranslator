@@ -1,91 +1,207 @@
-Slang,English
-Word,Meaning
-Hobnob,*Socialize with people of an artificially higher status*
-Chill,*Relax*
-Popo,*Police*
-Fuzz,*Police*
-Airhead,*Silly/foolish person*
-Cringe,*Really embarrassing*
-Copium,*Fake drug to help twitch users deal with loss/failure*
-Simp,*Person who does too much for who he/she likes*
-Cram,*Study like crazy*
-Crash,*Sleep/pass out*
-Dms’,*Direct messages*
-Dead,*(Such as in a restaurant or bar) no one’s there*
-Steez,*Effortless style*
-Spox,*Spokesperson*
-Sawbuck,*Us$10*
-A-Game,*One’s best*
-Oops!,* When someone messes up*
-Dude,*A guy*
-Nuts,*Crazy*
-Dope!,*Cool*
-Yuppie,"*Young urban professional, white-collar worker*"
-White-Collar,"*High-salary job that doesn’t involve manual labor, such as accountants and 
-lawyers*"
-Blue-Collar,"*Jobs focused on manual labor, such as farmers and miners*"
-Cray,*Crazy*
-Woke,*Aware of potential injustices*
-Poppin’,*Excellent*
-Lit,"*Drunk, or superb*"
-Swole,*Very muscular*
-Drip,*Fashionable*
-Drownin’,*Unfashionable*
-Salty,*Jealous (of someone)*
-Cool,*Great*
-Snatched,*Nice and cool*
-Yeet!,*Expression of excitement*
-Yikes!,*No way! It can’t be!*
-Finsta,*Fake/Private Instagram account*
-Periodt.,"*End of discussion (for example, what a parent would say to the child)*"
-Flex,*Show off*
-Low-key,"*Modest, something you don’t want emphasized*"
-Slay,"*Excel at, win at*"
-Gucci,*Trendy*
-Shook,*Emotionally bothered/shaken*
-Curve,*Rejecting someone’s advances (e.g. from a classmate)*
-Stan,*Obsessive fan*
-Sus,*Suspect/suspicious*
-Turnt,"*Intoxicated, energized*"
-Bae,*A best friend/loved one*
-Fleek,"*Really good, stylish*"
-Cheugy,*Out of style*
-Emo,*Overly angsty/emotional*
-E-Girl/E-Boy,*An emo girl/boy*
-Fam,*Family*
-Smol,*Small/cute*
-Snack,*Someone who’s attractive*
-Wig,*That’s so cool!*
-Lewk,*Someone’s personal style*
-Hot,*Attractive*
-Sick,"*Cool, great*"
-Shady,*Suspicious*
-Bomb,"*Really good, tasty*"
-Boujee,*Fancy and extravagant*
-Dank,*Excellent*
-Flakey,*Indecisive*
-Finna,*I am going to*
-Ghost,*Suddenly start ignoring*
-Hypebeast,*Someone who only wants to be popular*
-W,*A win*
-L,*A loss*
-Whip,*Car*
-Hip,"*Popular, trendy*"
-Lemon,*Bad person*
-Babe,"*Attractive woman, your significant other*"
-Grub,*Food*
-Jacked,*Muscular*
-Chicken,*Coward*
-Ex,*Former girlfriend or boyfriend*
-Whiz,*A smart person*
-Dump,*End a relationship*
-Jonesing (For),*Really want something*
-Wack,"*Bad, not cool*"
-Score,*Get what you want*
-Corny,*(Things like movies and jokes) silly*
-Cheesy,*(Things like movies and jokes) silly*
-Flick,*Movie*
-Bummer,*Disappointment*
-Wasted,*Intoxicated*
-Booze,*Alcohol*
-Yas!,*(Celebratory) yes!*
+slang,definition
+Hobnob,Socialize with people of an artificially higher status
+Chill,Relax
+Popo,Police
+Fuzz,Police
+Airhead,Silly/foolish person
+Cringe,Really embarrassing
+Copium,Fake drug to help twitch users deal with loss/failure
+Simp,Person who does too much for who he/she likes
+Cram,Study like crazy
+Crash,Sleep/pass out
+Dms’,Direct messages
+Dead,(Such as in a restaurant or bar) no one’s there
+Steez,Effortless style
+Spox,Spokesperson
+Sawbuck,Us$10
+A-Game,One’s best
+Oops, When someone messes up
+Dude,A guy
+Nuts,Crazy
+Dope,Cool
+Yuppie,"Young urban professional, white-collar worker"
+White-Collar,"High-salary job that doesn’t involve manual labor, such as accountants and 
+lawyers"
+Blue-Collar,"Jobs focused on manual labor, such as farmers and miners"
+Cray,Crazy
+Woke,Aware of potential injustices
+Poppin’,Excellent
+Lit,"Drunk, or superb"
+Swole,Very muscular
+Drip,Fashionable
+Drownin’,Unfashionable
+Salty,Jealous (of someone)
+Cool,Great
+Snatched,Nice and cool
+Yeet,Expression of excitement
+Yikes,No way It can’t be
+Finsta,Fake/Private Instagram account
+Periodt,"End of discussion (for example, what a parent would say to the child)"
+Flex,Show off
+Low-key,"Modest, something you don’t want emphasized"
+Slay,"Excel at, win at"
+Gucci,Trendy
+Shook,Emotionally bothered/shaken
+Curve,Rejecting someone’s advances (e.g. from a classmate)
+Stan,Obsessive fan
+Sus,Suspect/suspicious
+Turnt,"Intoxicated, energized"
+Bae,A best friend/loved one
+Fleek,"Really good, stylish"
+Cheugy,Out of style
+Emo,Overly angsty/emotional
+E-Girl/E-Boy,An emo girl/boy
+Fam,Family
+Smol,Small/cute
+Snack,Someone who’s attractive
+Wig,That’s so cool
+Lewk,Someone’s personal style
+Hot,Attractive
+Sick,"Cool, great"
+Shady,Suspicious
+Bomb,"Really good, tasty"
+Boujee,Fancy and extravagant
+Dank,Excellent
+Flakey,Indecisive
+Finna,I am going to
+Ghost,Suddenly start ignoring
+Hypebeast,Someone who only wants to be popular
+W,A win
+L,A loss
+Whip,Car
+Hip,"Popular, trendy"
+Lemon,Bad person
+Babe,"Attractive woman, your significant other"
+Grub,Food
+Jacked,Muscular
+Chicken,Coward
+Ex,Former girlfriend or boyfriend
+Whiz,A smart person
+Dump,End a relationship
+Jonesing (For),Really want something
+Wack,"Bad, not cool"
+Score,Get what you want
+Corny,(Things like movies and jokes) silly
+Cheesy,(Things like movies and jokes) silly
+Flick,Movie
+Bummer,Disappointment
+Wasted,Intoxicated
+Booze,Alcohol
+Yas,(Celebratory) yes
+In the bag,"A certainty (usually for something that you want, like in sports or a 
+contest)"
+Once in a blue moon,Rarely
+You bet,You’re welcome
+I don’t buy that,I don’t believe you
+That’s rad,That’s cool
+Never mind,Let’s change the subject
+Keep in touch,(When leaving someone) Let’s stay in contact
+I can’t even!,I can’t tolerate that anymore!
+No biggie,Not a problem
+No big deal,Not a problem
+No sweat,Not a problem
+Show up,"Go to, do better than someone"
+Have a crush (on someone),"Like someone, want to ask someone out on a date"
+Get hitched,Get married
+Tie the knot,Get married
+I’m beat,I’m tired
+Get under one’s skin,Annoy
+A turn off,Something you don’t like about someone/somewhere
+Couch potato,Someone who’s always watching tv
+Party animal,Someone who is always partying
+Hang out,Spend time with people
+It sucked,It was bad
+I’m game,I can join you/I will do it
+I’m down,I can join you/I will do it
+I’m in,I can join you/I will do it
+Have a blast,Having a great time
+Get fired,Lose one’s job
+Hit the books,Study
+Rip (someone) off,Overcharge
+Ride shotgun,Sit in the front passenger seat
+The bomb,Excellent
+Have dibs on,Make a claim on/to
+Suck up,Win someone’s approval by being servile
+Kiss ass,Win someone’s approval by being servile
+Fresh meat,New target for humiliation
+Loose cannon,Someone dangerously uncontrollable
+Pass the buck,Make someone else responsible
+My bad,My mistake
+Take for granted,Assume
+Hit the road,Leave (to go somewhere)
+Go dutch,Every person pays for their own food/drinks
+Hit the spot,(Said after food/drink) Really satisfying
+Wrap up,Finish doing something
+Are you kidding me?,Phrase to represent excitement/frustration
+Around the clock,"All the time, 24 hours a day, 7 seven days a week"
+Take a rain check,Do at a later time
+What’s up?,How are you? How’s it going?
+You’re telling me!,I know!
+All-ears,Has your undivided attention
+All-nighter,Staying up all night to do homework/chat with friends
+I’m baby,I’m innocent/cute
+Glow up,A makeover (transformed from ugly to less ugly)
+Open up pandora’s box,Cause/start trouble/problems
+In the zone,Performing as well as or better than one can
+Tune out,Stop paying attention 
+Armchair CEO,"Offering expertise on
+something in which the speaker lacks "
+Off the hook,Freed from blame
+Off the chain,Really good
+"Bye, Felicia",Said when you’re done with a conversation. Meaning “that’s it. I’m done.”
+(To) ace,Excel at (a test)
+(To) nail,"Excel at (a test, a race)"
+(To) screw over,Cheat or exploit someone
+Amped up,Filled with enthusiasm/energy
+On point,"Relevant and appropriate, really good"
+No cap,Not lying
+Straight fire,Trendy
+Spill the tea/spill the beans,Share the gossip/secret
+Netflix and chill,Watch Netflix and have sex
+Big mad,Really angry
+Diamond hands,Taking a major financial risk
+Fauci ouchie,COVID-19 vaccine
+Cancel culture,Online shaming/embarrassment of someone due to their views
+Grill,Angrily stare at someone
+Real talk,Used to get someone’s attention to talk about something serious
+Cake/Cheese,Money
+Mad,Very
+Frontin’,Pretending to be skilled to impress others
+Dead-Ass,Serious about something
+Tight,"Stylish, cool"
+Ratchet,A woman who has made some bad lifestyle choices
+Brick,Freezing
+Schmear,Lots of cream cheese
+Pie,Pizza (pie)
+Schvitz,Sweating
+Stoop,Steps in front of a building
+Dumb,"Really, very"
+Gotham,Nickname for New York City (from Batman)
+Bodega,Small neighborhood shop
+Cop,"Buy, feel (inappropriately)"
+Buggin’,Acting crazy
+Ice,Jewelry
+Wylin’/Wildin’,Acting crazy
+Crusty,Unclean
+Snuff,"Hit/punch, drugs"
+Schlep,Impatiently going between places
+Regular coffee,Coffee made with cream and sugar
+Have beef,Have a problem with/want to fight with someone
+Are you down?,Want to do it/join us?
+NoHo,North Hollywood
+SigAlert,Traffic alert/warning
+Yeah no,No
+SoCal,Southern California
+NorCal,Northern California
+Gnarly,Good or bad (depends on the context)
+Rad,Cool
+Stoked,Excited
+Hyphy,Overly excited
+Outta pocket,Inappropriate
+Slaps,Really good (music)
+Yadadamean,Do you know what I mean?
+Phubbing,Ignoring someone by using their phone
+Stealth mode,Secret
+Three commas club,Billionaires
+Unicorn,A start-up valued at over $1 billion
+Zombie mood,Staring at one’s phone
