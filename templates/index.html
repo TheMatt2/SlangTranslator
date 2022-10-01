@@ -5,16 +5,10 @@
 
         <form method="POST" action="/">
             <input type="hidden" value="load_data" name="action">
+            <input type="text" id="translate_content" name="content"><br><br>
             <input type="submit" value="Load Data">
         </form>
-        <tr>
-            <td>
-                <form method="POST" action="/">
-                    <input type="hidden" value="remove_slang" name="action">
-                    <input type="hidden" value="{{slang.id}}" name="id">
-                    <input type="submit" value="Remove">
-                </form>
-            </td>
+        <p>{{content}}</p>
         </tr>
         </table>
     </body>
