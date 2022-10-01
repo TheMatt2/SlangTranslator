@@ -8,14 +8,17 @@ app = Flask(__name__)
 @app.route("/", methods = ["GET", "POST"])
 def home():
     # If this is a post, divert to the appropriate function
+    content=""
     translated_slang = ""
     if request.form:
         action = request.form.get("action")
         if action == "load_data":
             content = request.form.get("content")
+            data = request.form.get("slang server")
             print("CONTENT", content)
+            print("data", data)
             translated_slang = translate_slang(content)
-    return render_template("index.html")
+    return render_template("index.html", content=content)
 
 def translate_slang(content):
     return content
