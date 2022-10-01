@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <h1>Slang Translator</h1>
+        <p>Identify slang in English text to help learn English.</p>
+
+        <form method="POST" action="/">
+            <input type="hidden" value="load_data" name="action">
+            <input type="submit" value="Load Data">
+        </form>
+        <tr>
+            <td>
+                <form method="POST" action="/">
+                    <input type="hidden" value="remove_slang" name="action">
+                    <input type="hidden" value="{{slang.id}}" name="id">
+                    <input type="submit" value="Remove">
+                </form>
+            </td>
+        </tr>
+        </table>
+    </body>
+</html>
