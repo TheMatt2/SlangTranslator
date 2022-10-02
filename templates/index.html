@@ -6,13 +6,18 @@
         <form method="POST" action="/">
             <input type="hidden" value="load_data" name="action">
             <input type="submit" value="Load Data">
-            <textarea name="content"col="300"rows="20"></textarea>
+            <textarea name="slang_content" col="300" rows="20">{{slang_content}}</textarea>
         </form>
 
-        <p>{{content}}</p>
-        </tr>
-        </table>
-        
+        <!-- <textarea readonly name="content" col="300" rows="20"> -->
+        <p style="padding: 10px; border: 2px solid;">
+            {% for highlight in highlighted_text %}
+                {{highlight[0]}}
+                <mark>{{highlight[1]}}</mark>
+            {% endfor %}
+            {{post_highlight}}
+        </p>
+        <!-- </textarea> -->
     </body>
 </html>
 
