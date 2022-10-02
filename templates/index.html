@@ -5,10 +5,16 @@
             font-family: Georgia, serif;
             padding: 15px;
         }
+
+        h2{
+            text-align: center;
+        }
+
         body {
             background-color: rgb(255, 255, 255);
-            padding: 10px 35px
+            
         }
+
         .button {
             background-color: #4c93af;
             border: none;
@@ -20,25 +26,18 @@
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
-            position: relative;
-            bottom: 20px;
+            position: center;
+            
         }
+
         .text-box {
             background-color: #ffffff;
-            padding: 10px;
-        }
-        textarea {
-            width: 500px;
-            height: 50px;
-        }
-        .text-box {
             position: center;
             width: 800px;
             height: 50px;
             padding: 10px; 
             border: 1px solid;
         }
-
 
         .main-header{
             background-color :#82c4de;
@@ -49,15 +48,16 @@
     <body>
         <header class="main-header">
             <h1>Slang Translator</h1>
+            <h2>Click "Define" or press enter to identify American English slang and get the definition of the term.</h2>
         </header>
         
-        <p>Click on "Define" to identify American English slang and get the definition of the word(s).</p>
+        
 
         <div style="position: relative">
         <form method="POST" action="/">
-                <input type="hidden" value="load_data" name="action">
-                <input type="submit" class="button" value="Define">
-                <textarea name="slang_content">{{slang_content}}</textarea></form>
+                <input type="hidden" value="load_data" name="action"/>
+                <input type="text" name="slang_content" value="{{slang_content}}" size="112"/>
+                <input type="submit" class="button" value="Define"/>
         </form>
         </div>
 
@@ -73,7 +73,6 @@
         
     </body>
 </html>
-
 
 
 
