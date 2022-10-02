@@ -13,7 +13,7 @@
         <p style="padding: 10px; border: 2px solid;">
             {% for highlight in highlighted_text %}
                 {{highlight[0]}}
-                <mark>{{highlight[1]}}</mark>
+                <mark title="{{highlight[2]}}">{{highlight[1]}}</mark>
             {% endfor %}
             {{post_highlight}}
         </p>

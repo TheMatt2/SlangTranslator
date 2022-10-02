@@ -26,7 +26,8 @@ def parse_slang(slang_content):
     slanged_parsed = []
     last_end = 0
     for slang_match in SLANG_PAT.finditer(slang_content):
-        slanged_parsed.append((slang_content[last_end:slang_match.start()], slang_match.group()))
+        slang_definition = SLANG_WORDS.get(slang_match.group().lower(), "")
+        slanged_parsed.append((slang_content[last_end:slang_match.start()], slang_match.group(), slang_definition))
         last_end = slang_match.end()
     last_content = slang_content[last_end:]
     return slanged_parsed, last_content
@@ -34,19 +35,19 @@ def parse_slang(slang_content):
 SLANG_FILE = "slang_words.csv"
 
 def load_slang():
-    slang_words = []
+    slang_words = {}
     with open(SLANG_FILE, encoding="utf8") as f:
         reader = csv.reader(f)
         next(reader, None) # skip first line
         for slang, definition in reader:
-            slang_words.append((slang, definition))
+            slang_words[slang.lower()] = definition
     return slang_words
 
 if __name__ == "__main__":
     SLANG_WORDS = load_slang()
 
     SLANG_RE_PATTERN = ""
-    for slang, definition in SLANG_WORDS:
+    for slang in SLANG_WORDS:
         SLANG_RE_PATTERN += fr"\b{re.escape(slang)}\b|"
     # Remove last bar
     SLANG_RE_PATTERN = SLANG_RE_PATTERN[:-1]
