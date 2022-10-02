@@ -1,4 +1,9 @@
 <html>
+    <style>
+        h1{
+            text-align:center
+        }
+    </style>
     <body>
         <h1>Slang Translator</h1>
         <p>Identify slang in English text to help learn English.</p>
@@ -6,11 +11,11 @@
         <form method="POST" action="/">
             <input type="hidden" value="load_data" name="action">
             <input type="submit" value="Load Data">
-            <textarea name="slang_content" col="300" rows="20">{{slang_content}}</textarea>
+            <textarea name="slang_content" col="300" rows="2">{{slang_content}}</textarea>
         </form>
 
         <!-- <textarea readonly name="content" col="300" rows="20"> -->
-        <p style="padding: 10px; border: 2px solid;">
+        <p style="padding: 10px; border: 1px solid;">
             {% for highlight in highlighted_text %}
                 {{highlight[0]}}
                 <mark>{{highlight[1]}}</mark>
