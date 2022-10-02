@@ -3,13 +3,11 @@
         h1 {
             text-align: center;
             font-family: Georgia, serif;
+            padding: 15px;
         }
         body {
             background-color: rgb(255, 255, 255);
             padding: 10px 35px
-        }
-        h1 {
-            background-color: rgb(176, 224, 241);
         }
         .button {
             background-color: #4c93af;
@@ -22,24 +20,49 @@
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
+            position: relative;
+            bottom: 20px;
         }
         .text-box {
             background-color: #ffffff;
             padding: 10px;
         }
+        textarea {
+            width: 500px;
+            height: 50px;
+        }
+        .text-box {
+            position: center;
+            width: 800px;
+            height: 50px;
+            padding: 10px; 
+            border: 1px solid;
+        }
+
+
+        .main-header{
+            background-color :#82c4de;
+            background-size: cover;
+        }
+
     </style>
     <body>
-        <h1>Slang Translator</h1>
+        <header class="main-header">
+            <h1>Slang Translator</h1>
+        </header>
+        
         <p>Click on "Define" to identify American English slang and get the definition of the word(s).</p>
 
+        <div style="position: relative">
         <form method="POST" action="/">
-            <input type="hidden" value="load_data" name="action">
-            <textarea name="slang_content" col="300" rows="2">{{slang_content}}</textarea></form></body>
-            <input type="submit" class="button" value="Define">
+                <input type="hidden" value="load_data" name="action">
+                <input type="submit" class="button" value="Define">
+                <textarea name="slang_content">{{slang_content}}</textarea></form>
         </form>
+        </div>
 
         <!-- <textarea readonly name="content" col="300" rows="20"> -->
-        <p class="text-box" style="padding: 10px; border: 1px solid;">
+        <p class="text-box">
             {% for highlight in highlighted_text %}
                 {{highlight[0]}}
                 <mark title="{{highlight[2]}}">{{highlight[1]}}</mark>
@@ -47,6 +70,7 @@
             {{post_highlight}}
         </p>
         <!-- </textarea> -->
+        
     </body>
 </html>
 
