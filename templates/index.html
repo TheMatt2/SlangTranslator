@@ -1,17 +1,29 @@
 <html>
     <style>
-        h1{
+        h1 {
             text-align: center;
             font-family: Georgia, serif;
+        }
+        .button {
+            background-color: #4c93af;
+            border: none;
+            color: white;
+            padding: 2px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
         }
     </style>
     <body>
         <h1>Slang Translator</h1>
-        <p>Click on "Load Data" to identify American English slang and get the definition of the word(s).</p>
+        <p>Click on "Define" to identify American English slang and get the definition of the word(s).</p>
 
         <form method="POST" action="/">
             <input type="hidden" value="load_data" name="action">
-            <input type="submit" value="Load Data">
+            <input type="submit" class="button" value="Define">
             <textarea name="slang_content" col="300" rows="2">{{slang_content}}</textarea>
         </form>
 
@@ -19,7 +31,7 @@
         <p style="padding: 10px; border: 1px solid;">
             {% for highlight in highlighted_text %}
                 {{highlight[0]}}
-                <mark>{{highlight[1]}}</mark>
+                <mark title="{{highlight[2]}}">{{highlight[1]}}</mark>
             {% endfor %}
             {{post_highlight}}
         </p>
