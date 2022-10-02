@@ -1,8 +1,7 @@
-import os
 import re
 import csv
 
-from flask import Flask, request, redirect, render_template
+from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
@@ -11,7 +10,7 @@ def home():
     # If this is a post, divert to the appropriate function
     slang_content = ""
     slanged_parsed = []
-    last_content = "" 
+    last_content = ""
     if request.form:
         action = request.form.get("action")
         if action == "load_data":
