@@ -4,6 +4,13 @@
             text-align: center;
             font-family: Georgia, serif;
         }
+        body {
+            background-color: rgb(255, 255, 255);
+            padding: 10px 35px
+        }
+        h1 {
+            background-color: rgb(176, 224, 241);
+        }
         .button {
             background-color: #4c93af;
             border: none;
@@ -16,6 +23,10 @@
             margin: 4px 2px;
             cursor: pointer;
         }
+        .text-box {
+            background-color: #ffffff;
+            padding: 10px;
+        }
     </style>
     <body>
         <h1>Slang Translator</h1>
@@ -23,12 +34,12 @@
 
         <form method="POST" action="/">
             <input type="hidden" value="load_data" name="action">
+            <textarea name="slang_content" col="300" rows="2">{{slang_content}}</textarea></form></body>
             <input type="submit" class="button" value="Define">
-            <textarea name="slang_content" col="300" rows="2">{{slang_content}}</textarea>
         </form>
 
         <!-- <textarea readonly name="content" col="300" rows="20"> -->
-        <p style="padding: 10px; border: 1px solid;">
+        <p class="text-box" style="padding: 10px; border: 1px solid;">
             {% for highlight in highlighted_text %}
                 {{highlight[0]}}
                 <mark title="{{highlight[2]}}">{{highlight[1]}}</mark>
