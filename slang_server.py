@@ -10,6 +10,8 @@ app = Flask(__name__)
 def home():
     # If this is a post, divert to the appropriate function
     slang_content = ""
+    slanged_parsed = []
+    last_content = "" 
     if request.form:
         action = request.form.get("action")
         if action == "load_data":
@@ -33,7 +35,7 @@ SLANG_FILE = "slang_words.csv"
 
 def load_slang():
     slang_words = []
-    with open(SLANG_FILE) as f:
+    with open(SLANG_FILE, encoding="utf8") as f:
         reader = csv.reader(f)
         next(reader, None) # skip first line
         for slang, definition in reader:
