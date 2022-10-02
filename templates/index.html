@@ -8,11 +8,13 @@
 
         h2{
             text-align: center;
+            padding: 15px;
         }
 
         body {
-            background-color: rgb(255, 255, 255);
-            
+            background-color :#82b5de;
+            font-weight: bold;
+            text-align: center; 
         }
 
         .button {
@@ -22,25 +24,24 @@
             padding: 2px 32px;
             text-align: center;
             text-decoration: none;
-            display: inline-block;
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
-            position: center;
-            
+            margin: auto;
         }
 
         .text-box {
             background-color: #ffffff;
-            position: center;
+            position: 50%;
             width: 800px;
             height: 50px;
             padding: 10px; 
             border: 1px solid;
+            margin: auto;
         }
 
         .main-header{
-            background-color :#82c4de;
+            background-color :#343fd6;
             background-size: cover;
         }
 
@@ -51,27 +52,27 @@
             <h2>Click "Define" or press enter to identify American English slang and get the definition of the term.</h2>
         </header>
         
-        
-
-        <div style="position: relative">
         <form method="POST" action="/">
-                <input type="hidden" value="load_data" name="action"/>
-                <input type="text" name="slang_content" value="{{slang_content}}" size="112"/>
-                <input type="submit" class="button" value="Define"/>
+            <input type="hidden" value="load_data" name="action"/>
+            <input type="text" name="slang_content" value="{{slang_content}}" size="112" style="text-align: center;"/>
+            <input type="submit" class="button" value="Define"/> 
         </form>
-        </div>
 
-        <!-- <textarea readonly name="content" col="300" rows="20"> -->
-        <p class="text-box">
-            {% for highlight in highlighted_text %}
-                {{highlight[0]}}
-                <mark title="{{highlight[2]}}">{{highlight[1]}}</mark>
-            {% endfor %}
-            {{post_highlight}}
-        </p>
-        <!-- </textarea> -->
+        <foot>
+            <!-- <textarea readonly name="content" col="300" rows="20"> -->
+                <p class="text-box">
+                    {% for highlight in highlighted_text %}
+                        {{highlight[0]}}
+                        <mark title="{{highlight[2]}}">{{highlight[1]}}</mark>
+                    {% endfor %}
+                    {{post_highlight}}
+                </p>
+                <!-- </textarea> -->
+        </foot>
+        
         
     </body>
+    
 </html>
 
 
