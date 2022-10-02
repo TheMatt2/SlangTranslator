@@ -17,6 +17,8 @@
             text-align: center; 
         }
 
+        
+
         .button {
             background-color: #4c93af;
             border: none;
@@ -53,9 +55,24 @@
         </header>
         
         <form method="POST" action="/">
-            <input type="hidden" value="load_data" name="action"/>
-            <input type="text" name="slang_content" value="{{slang_content}}" size="112" style="text-align: center;"/>
-            <input type="submit" class="button" value="Define"/> 
+            <div style="display: flex; justify-content: center; flex-direction: row;">
+                <div style="width:15%; flex-grow: 1; flex-shrink: 0; flex-basis: auto;"></div>
+                <div style="width: 70%;  flex-grow: 1; flex-shrink: 0; flex-basis: auto; display: flex; justify-content: center; flex-direction: column;">
+                    <div style="height:70%; flex-grow: 1; flex-shrink: 0; flex-basis: auto;">
+                        <div>
+                            <input type="hidden" value="load_data" name="action"/>
+                        </div>
+                        <div>
+                            <input type="text" name="slang_content" value="{{slang_content}}" style="width: 100%"/>
+                        </div>
+                        <div>
+                            <input type="submit" class="button" value="Define" style="margin-top: .25rem; margin-bottom: .25rem"/>
+                        </div>
+                    </div>
+                </div>
+                <div style="width:15%; flex-grow: 1; flex-shrink: 0; flex-basis: auto;"></div>
+            </div>
+            
         </form>
 
         <foot>
